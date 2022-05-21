@@ -1,2 +1,3 @@
-2022/05/22-00:10:07.455 13a2 Creating DB /home/dvsource/.config/google-chrome/Default/shared_proto_db/metadata since it was missing.
-2022/05/22-00:10:07.480 13a2 Reusing MANIFEST /home/dvsource/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2022/05/22-03:23:01.409 6018 Reusing MANIFEST /home/dvsource/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2022/05/22-03:23:01.409 6018 Recovering log #3
+2022/05/22-03:23:01.409 6018 Reusing old log /home/dvsource/.config/google-chrome/Default/shared_proto_db/metadata/000003.log 
