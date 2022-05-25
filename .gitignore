@@ -20,6 +20,7 @@
 /.cache
 /.build
 /.config/google-chrome
+**/google-chrome/
 
 *.log
 .wget-hsts
