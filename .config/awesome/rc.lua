@@ -67,18 +67,18 @@ modkey = "Mod4"
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
     awful.layout.suit.spiral.dwindle,
-    awful.layout.suit.floating,
-    awful.layout.suit.tile,
-    awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
-    awful.layout.suit.fair,
-    awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.max,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier,
-    awful.layout.suit.corner.nw,
+-- awful.layout.suit.floating,
+-- awful.layout.suit.tile,
+-- awful.layout.suit.tile.left,
+-- awful.layout.suit.tile.bottom,
+-- awful.layout.suit.tile.top,
+-- awful.layout.suit.fair,
+-- awful.layout.suit.fair.horizontal,
+-- awful.layout.suit.spiral,
+-- awful.layout.suit.max,
+-- awful.layout.suit.max.fullscreen,
+-- awful.layout.suit.magnifier,
+-- awful.layout.suit.corner.nw,
     -- awful.layout.suit.corner.ne,
     -- awful.layout.suit.corner.sw,
     -- awful.layout.suit.corner.se,
@@ -313,7 +313,7 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1, nil, true)    end,
               {description = "decrease the number of columns", group = "layout"}),
     awful.key({ modkey,           }, "space", function () awful.layout.inc( 1)                end,
-              {description = "select next", group = "layout"}),
+              {description = "select next [deprecated]", group = "layout"}),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                end,
               {description = "select previous", group = "layout"}),
 
@@ -332,7 +332,7 @@ globalkeys = gears.table.join(
     -- Prompt
 -- awful.key({ modkey }, "r", function () awful.screen.focused().mypromptbox:run() end,
 -- {description = "prompt", group = "launcher"}),
-    awful.key({ modkey }, "r", function () awful.util.spawn("dmenu_run") end, 
+    awful.key({ modkey }, "space", function () awful.util.spawn("dmenu_run") end, 
               {description = "dmenu", group = "launcher"}),
 
     -- Prompt

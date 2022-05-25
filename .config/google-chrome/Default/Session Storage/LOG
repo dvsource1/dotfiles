@@ -1,3 +1,5 @@
-2022/05/22-03:23:00.666 5 Reusing MANIFEST /home/dvsource/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2022/05/22-03:23:00.691 5 Recovering log #3
-2022/05/22-03:23:00.696 5 Reusing old log /home/dvsource/.config/google-chrome/Default/Session Storage/000003.log 
+2022/05/25-12:39:01.183 5 Reusing MANIFEST /home/dvsource/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/05/25-12:39:01.206 5 Recovering log #3
+2022/05/25-12:39:01.248 5 Level-0 table #3: started
+2022/05/25-12:39:01.284 5 Level-0 table #3: 17919 bytes OK
+2022/05/25-12:39:01.295 5 Delete type=0 #3
